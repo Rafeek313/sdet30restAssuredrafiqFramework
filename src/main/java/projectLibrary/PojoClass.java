@@ -4,8 +4,8 @@ public class PojoClass {
 	String createdBy;
 	 String projectName;
 	 String status;
-	 String teamSize;
-	public PojoClass(String createdBy, String projectName, String status, String teamSize) {
+	 int  teamSize;
+	public PojoClass(String createdBy, String projectName, String status, int teamSize) {
 		super();
 		this.createdBy = createdBy;
 		this.projectName = projectName;
@@ -21,7 +21,7 @@ public class PojoClass {
 	public String getStatus() {
 		return status;
 	}
-	public String getTeamSize() {
+	public int getTeamSize() {
 		return teamSize;
 	}
 	public void setCreatedBy(String createdBy) {
@@ -33,7 +33,7 @@ public class PojoClass {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-	public void setTeamSize(String teamSize) {
+	public void setTeamSize(int teamSize) {
 		this.teamSize = teamSize;
 	}
 	 

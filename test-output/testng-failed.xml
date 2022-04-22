@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DiffrentWayToPost.CreateProjectUsingJsonFile">
+      <class name="authentication.Oauth2">
         <methods>
-          <include name="createproject"/>
+          <include name="Oauth2_0"/>
         </methods>
-      </class> <!-- DiffrentWayToPost.CreateProjectUsingJsonFile -->
+      </class> <!-- authentication.Oauth2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
